@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla todo</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <script src="./static/bundle/script.js"></script>
+  </head>
+  <body>
+    <div class="todos-container">
+      <ul id="todo-list"></ul>
+      <form id="todos-form">
+        <input id="todo-title-input" type="text" name="todoTitle" placeholder="Enter todo title" />
+        <input type="submit" value="Add Todo" />
+        <button id="delete-btn" type="button">Delete selected</button>
+      </form>
+      <p
+        id="error-label"
+        style="color: red; font-size: 1rem; margin: 1rem 0"
+      ></p>
+    </div>
+  </body>
+</html>

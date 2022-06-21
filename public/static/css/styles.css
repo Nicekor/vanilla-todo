@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  width: fit-content;
+}
+
+.todos-container {
+  padding: 1rem;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todo input {
+  margin-right: 1rem;
+}
+
+.todo-checked {
+  text-decoration: line-through;
+}
